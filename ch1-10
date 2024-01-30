@@ -1,0 +1,23 @@
+public class Comments {
+    public static void main(String[] args) {
+        // Method 1: Single-line comment
+        // Program comments are nonexecuting statements 
+        // you add to a file for documentation.
+
+        /*
+        Method 2: Multi-line comment
+        Program comments are nonexecuting statements 
+        you add to a file for documentation.
+        */
+
+        /**
+         * Method 3: Javadoc comment
+         * Program comments are nonexecuting statements 
+         * you add to a file for documentation.
+         */
+
+        // Displaying the statement
+        System.out.println("Program comments are nonexecuting statements "
+                           + "you add to a file for documentation.");
+    }
+}
